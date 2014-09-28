@@ -1,0 +1,183 @@
+@font-face {
+    font-family: lato-reg;
+    src: url(../fonts/lato/Lato-Reg.ttf);
+}
+@font-face {
+    font-family: lato-lig;
+    src: url(../fonts/lato/Lato-Lig.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: lato-reg, arial, sans-serif;
+    color: #505050;
+}
+
+
+
+}html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;    
+    min-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;    
+}
+
+section.fill {
+    margin: 0;    
+    min-height: 100%;
+    width: 100%;
+/*    border: 1px dotted;*/
+    padding: 100px 100px;
+}
+
+h1.bigger{
+    font-size: 40px;
+}
+h1.big{
+    font-size: 32px;
+}
+div.img-list img{
+    margin: 20px;    
+}
+
+div.img-full-view{
+    height: 60%;
+    padding: 10px;
+    background: #222;
+    color: #f0f0f0;
+}
+div.img-full-view img{
+    height: 100%;
+}
+div.img-full-view div.details{
+    display: inline-block;
+    vertical-align: top;
+    padding: 2em;    
+}
+div.pointer{
+    position: relative;
+    width: 0;
+    height: 0;
+    left: 550px;    
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #000000 transparent;
+}
+
+.white{
+    color: white;
+}
+
+#main-wrap {
+    min-height: 100%;
+    width: 100%;
+}
+
+.content {    
+    position: absolute;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+.fixed-nav{
+    font-size: 14px;
+    position: fixed;
+    top: 2px;
+    right: 100px;
+    z-index: 100;
+}
+.fixed-nav a:nth-child(1){
+    color: #f6821f;
+}
+.fixed-nav a:nth-child(2){
+    color: #00a650;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    /*opacity: 0.8;*/
+}
+.head-logo{
+    margin: 5px;
+}
+
+.quote-box {
+    margin: 3em auto;
+    width: 60%;    
+}
+
+/****************** from : http://codepen.io/palimadra/pen/lKgDd ****************************/
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-style: italic;
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 100px;
+    position: absolute;
+    left: -20px;
+    top: -30px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.capsule {
+    margin: 20px auto;       
+    box-sizing: border-box;
+    text-align: center;
+    font: 400 1.1em 'lato-lig', arial, sans-serif;            
+    
+}
+.capsule-key{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;            
+    width: 25%;
+    padding: 15px;    
+    display: inline-block;
+    font-style: oblique;
+}
+.capsule-value{        
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;    
+    width: 75%;   
+    padding: 15px;    
+    display: inline-block;
+    font-style: italic;
+}
+
+.clrearfix {
+    clear: both;
+}
+

@@ -1,0 +1,33 @@
+.bg-green {
+    background: #60b044;
+    color: #f0f0f0;
+}
+
+.bg-blue {
+    background: #2190d2;
+    color: #f0f0f0;
+}
+
+.bg-red {
+    background: #d94e4e;
+    color: #f0f0f0;
+}
+
+.bg-white-f0 {
+    background: #f0f0f0;
+    color: #202020;
+}
+.bg-white-f9 {
+    background: #f9f9f9;
+    color: #202020;
+}
+
+/*** ***/
+
+.text-white-f0 {
+    color: #f0f0f0;
+}
+
+.text-black-20 {
+    color: #202020;
+}

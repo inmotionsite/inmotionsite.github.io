@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>InMotion</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    
+    <link rel="stylesheet" href="styles/ui-main.css">
+    <link rel="stylesheet" href="styles/splitter.css">
+    <link rel="stylesheet" href="styles/nav.css">    
+    <link rel="stylesheet" href="styles/animate.css">
+    
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="main-wrap">
+        <div class="fixed-nav">
+            <a>Media</a>|<a>Foundation</a>
+        </div>
+        <div class="header">
+            <div class="head-logo">
+                <img src="images/InMotion.jpg" width=200/>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='pages/about.html'>About Us</a>
+                        <ul>
+                            <li><a href='pages/about.html#vision'>Our Vision</a></li>
+                            <li><a href='pages/about.html#clients'>Clients/Partners</a></li>
+                            <li><a href='pages/about.html#team'>Team</a></li>
+                            <li><a href='pages/about.html#joinus'>Join Us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='pages/contact-us.html'>Contact Us</a></li>
+                    <li><a href='blogs/blogs.html'>Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="split-wrap">
+            <!-- Main Page -->
+            <div class="splitter">
+                <div class="side side-l">
+                    <div class="split-content wow animated bounceInLeft">                        
+                    </div>
+                </div>  
+                <div class="side side-r">
+                    <div class="split-content wow animated bounceInRight">                        
+                    </div>
+                </div>  
+            </div>
+            <!-- Wheel -->
+            <div class="wheel">
+                <div class="page-trigger media-trigger wow animated bounceInLeft">Media</div>
+                <img class="in-motion-wheel" src="images/logo.png"/>
+                <div class="page-trigger foundation-trigger wow animated bounceInRight">Foundation</div>
+            </div>
+            <!-- Pages -->
+            <div class="page page-l">
+                <div class="about">
+                    <h1>Inmotion Media</h1>
+                    <p>With the largest Autorickshaw-Ad network in India, Inmotion Media is giving a new dimension to the advertisement industry by organizing the ad-network that can get one of the highest eyeballs in India. Inmotion is now the fastest growing company in transit media space. With a network of over 20,000 Auto-rickshaw drivers, Inmotion Media has a countrywide presence with over 9 large cities already under its banner.</p>
+                </div>                                
+                <div class="app-space">
+                    <img src="images/google_play_app.png"/>
+                </div>                
+                <div>
+                    <h1>Create Campaign</h1>
+                    
+                </div>
+                <div>
+                    <h1>View Previous Campaigns</h1>
+                </div>                
+            </div>
+            <div class="page page-r">
+                <div class="about">
+                    <h1>Inmotion Foundation</h1>                    
+                    <p>India’s indigenous three-wheeler taxi has served the average citizen’s chariot for over half a century. But these harbingers of punctuality and service do not have much to speak of themselves. In today’s world of uncertainty, savings have become all the more inevitable however after paying for rent of the rickshaw whatever little is left for them is hardly enough to make both ends meet. Lack of savings put their and their families’ future in jeopardy. Inmotion foundation aims at securing the life of India’s travel frontrunner by giving them financial security, access to affordable healthcare and education facilities.</p>
+                </div>  
+                <div class="clrearfix"></div>
+                <section>                       
+                    <figure>                        
+                        <img src="images/bachat_mitra.png">                    
+                        <figcaption>
+                            <h3>Finance: Bachat-Mitra</h3>
+                            A branchless banking platform for the drivers that motivates and mobilizes savings on daily basis. A smart card will help them to deposit their small savings in their own accounts in less than a minute without going to the bank.        
+                        </figcaption>
+                    </figure>
+                    <figure>                        
+                        <img src="images/bachat_mitra.png">                    
+                        <figcaption>
+                            <h3>Health: Swasthya-Mitra</h3>
+                            Health awareness campaigns, no tobacco campaign and soon to launch low cost health solutions in partnership with health startups and hospitals.
+                        </figcaption>
+                    </figure>
+                    <figure>                        
+                        <img src="images/bachat_mitra.png">                    
+                        <figcaption>
+                            <h3>Education: Gyan-Mitra</h3>
+                            From motivating drivers to educate their kids we are going to start dedicated learning centers for the driver's kids.
+                        </figcaption>
+                    </figure>
+                </section>                           
+            </div>
+            
+            <!-- back buttons -->
+            <div class="back back-l">
+                <img src="images/back_o.png"/>
+            </div>
+            <div class="back back-r">
+                <img src="images/back_g.png"/>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/wow.min.js"></script>
+    <script type="text/javascript" src="scripts/splitter.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset:       100
+        });
+        wow.init();
+    </script>
+</body>
+</html>

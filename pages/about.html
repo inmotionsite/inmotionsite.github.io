@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <title>InMotion</title>
+        <link rel="shortcut icon" type="image/png" href="../images/favicon.png"/>
+            
+        <link rel="stylesheet" href="../styles/ui-main.css">
+        <link rel="stylesheet" href="../styles/flat-color.css">
+        <link rel="stylesheet" href="../styles/nav.css">
+        <link rel="stylesheet" href="../styles/team.css">
+
+        <script type="text/javascript" src="../scripts/jquery.min.js"></script>        
+    </head>
+    <body >
+        <div id="main-wrap">
+            <div class="fixed-nav">
+                <a>Media</a>|<a>Foundation</a>
+            </div>
+            <div class="header">
+                <div class="head-logo">
+                    <img src="../images/InMotion.jpg" width=200/>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li class='first'><a href='../index.html'>Home</a></li>
+                        <li><a href='#'>About Us</a>
+                            <ul>
+                                <li><a href='#vision'>Our Vision</a></li>
+                                <li><a href='#clients'>Clients/Partners</a></li>
+                                <li><a href='#team'>Team</a></li>
+                                <li><a href='#joinus'>Join Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href='contact-us.html'>Contact Us</a></li>
+                        <li><a href='../blogs/blogs.html'>Blog</a></li>
+                    </ul>
+                </nav>
+            </div>       
+
+            <div class="content">
+                <section class="fill vision">
+                    <div class="quote-box">
+                        <blockquote>
+                            A small body of determined spirits fired by an unquenchable faith in their mission can alter the course of history
+                            <cite>Mahatma Gandhi</cite>
+                        </blockquote>                        
+                    </div>
+                    <p>These words are as relevant in today’s world as they were during India’s struggle for Independence with the view of achieving an inclusive development. Many sections of the society were looped out as India moved to new stages of development. To create a sustainable society, we must ensure the progress of these integral elements.</p>
+
+                    <p>We aim at reaching atleast 1 Million Auto-Rickshaw drivers by the year 2020.  We have no speck of doubt that we will be able to reach and surpass our milestones with the relentless efforts, faith and sense of purpose that we have demonstrated so far and pledge to continue it even in the future.  InMotion’s approach in achieving the progress of the Auto-Rickshaw industry is multi-faceted, the prime being the Bachat - Swasthaya - Gyan (Meaning Savings - Healthcare - Education) Initiative.</p>                    
+                    <br/><br/><br/>
+                    <div class="capsule">
+                        <div class="capsule-key bg-green">Vision</div><!--
+                        --><div class="capsule-value bg-white-f0">Empower the auto-rickshaw drivers and bring dignity back in their lives.</div>
+                    </div>
+                    <div class="capsule">
+                        <div class="capsule-key bg-blue">Mission</div><!--
+                        --><div class="capsule-value bg-white-f0">To connect with over a million drivers by 2020.</div>
+                    </div>
+                </section>
+                <section class="fill clients bg-white-f9">
+                    <h1 class="bigger">Our Clients</h1>
+                    <div class="img-list">
+                        <img src="../images/clients/akash.jpg"/>
+                        <img src="../images/clients/career_launcher.jpg"/>
+                        <img src="../images/clients/hcbl_bank.jpg"/>
+                        <img src="../images/clients/ims.jpg"/>
+                        <img src="../images/clients/naco.jpg"/>
+                        <img src="../images/clients/sbi.jpg"/>
+                        <img src="../images/clients/time.jpg"/>
+                        <img src="../images/clients/uco_banck.jpg"/>
+                        <img src="../images/clients/uninor.jpg"/>
+                    </div>
+                </section>
+                <section class="fill team">                    
+                    <ul class="grid type-4" style="color: #fff">
+                        <li>
+                            <figure>
+                                <img src="../images/team/dn.jpg" alt="durgesh">
+                                <figcaption>
+                                    <h3 class="text-white-f0">Durgesh Nandan</h3>
+                                    <span class="text-white-f0">
+                                        Founder
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../images/team/pramod_joshi.jpg" alt="pramod">
+                                <figcaption>
+                                    <h3 class="text-white-f0">Pramod Joshi</h3>
+                                    <span class="text-white-f0">
+                                        Mentor
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../images/team/jd.jpg" alt="jaydee">
+                                <figcaption>
+                                    <h3 class="text-white-f0">J. D.</h3>
+                                    <span class="text-white-f0">
+                                        Technical Head
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../images/team/vjitp.jpg" alt="vishvajit">
+                                <figcaption>
+                                    <h3 class="text-white-f0">Vishvajit Pandey</h3>
+                                    <span class="text-white-f0">
+                                        Designer/Developer
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </section>
+                <section class="fill joinus">d</section>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="../scripts/jquery.windows.js"></script>
+    <script type="text/javascript" src="../scripts/scroller.js"></script>    
+    <script>
+        $( document ).ready(function() {
+            $('section').windows({
+                snapping: true,
+                snapSpeed: 200,
+                snapInterval: 500,
+                onScroll: function(scrollPos){
+
+                },
+                onSnapComplete: function($el){
+                    // after window ($el) snaps into place
+                },
+                onWindowEnter: function($el){
+                    // when new window ($el) enters viewport
+                }
+            });            
+        });        
+    </script>
+</html>
